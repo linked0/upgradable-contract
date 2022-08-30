@@ -1,0 +1,33 @@
+{
+  "name": "upgradable-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linked0/upgradable-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linked0/upgradable-contract/issues"
+  },
+  "homepage": "https://github.com/linked0/upgradable-contract#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^2.3.0",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "ethers": "^5.7.0"
+  }
+}
